@@ -49,3 +49,14 @@ button:focus {outline:0;}
     padding: 1px 1px;
     margin-bottom: 1em;
 }
+
+@media only screen and (max-width: 600px){
+	.gradient {
+		max-width: 100%;
+		letter-spacing: 0em;
+	}
+
+	h1 {
+		letter-spacing: 0em;
+	}
+}
