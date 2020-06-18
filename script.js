@@ -23,8 +23,8 @@ function randomRGB () {
 
 
 // Inital Settings
-color1.value = "#17e081";
-color2.value = "#4ac3e9";
+color1.value = "#C3D91C";
+color2.value = "#BB6459";
 setGradient(color1.value, color2.value);
 
 //Event Listeners Below here
