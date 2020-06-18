@@ -33,7 +33,7 @@ button {
     border: none;
     background-color: #efefef;
 }
-button:hover {background-color: #a0a0cc;}
+button:hover {background-color: #D3D3D3;}
 button:focus {outline:0;}
 
 .radio-button, p {
