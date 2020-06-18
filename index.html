@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Gradient Background</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body id="gradient">
 	<h1>Background Generator</h1>
-	<input class="color1" type="color" name="color1" value="#00ff00">
-	<input class="color2" type="color" name="color2" value="#ff0000">
+	<input class="color1 swatch" type="color" name="color1" value="">
+	<input class="color2 swatch" type="color" name="color2" value="">
+
+	<div>
+		<input class="radio" type="radio" name="gradstyle" value="horizontal" checked="checked"><span class="radio-button">Horizontal</span>
+		<input class="radio" type="radio" name="gradstyle" value="vertical"><span class="radio-button">Vertical</span>
+		<input class="radio" type="radio" name="gradstyle" value="radial"><span class="radio-button">Radial</span><br>
+		<input class="radio" type="radio" name="gradstyle" value="diagl2r"><span class="radio-button">Diagonal (Left to Right)</span>
+		<input class="radio" type="radio" name="gradstyle" value="diagr2l"><span class="radio-button">Diagonal (Right to Left)</span>
+	</div>
+	<div>
+		<button id="button1">Random Left</button>
+		<button id="buttonboth">Random Both</button>
+		<button id="button2">Random Right</button>
+	</div>
+	<div>
+		<button id="buttonswap">Swap Colours</button>
+	</div>
+
 	<h2>Current CSS Background</h2>
 	<h3></h3>
 
